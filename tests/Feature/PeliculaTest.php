@@ -34,4 +34,14 @@ class PeliculaTest extends TestCase
             ->assertSee('Lista de peliculas del genero '. $genero)
             ->assertSee('Terror');
     }
+
+    function test_error_404_al_no_existir_genero_en_la_solicitud()
+    {
+        $genero = 'Genero-invalido';
+
+        $this
+            ->followingRedirects()
+            ->get(route('pelicula.show', $genero))
+            ->assertStatus(404);
+    }
 }
