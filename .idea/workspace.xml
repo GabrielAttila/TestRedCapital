@@ -38,6 +38,7 @@
       <change beforePath="$PROJECT_DIR$/../../Estudiar/laravue/servidor/app/Http/Controllers/UserAPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estudiar/laravue/servidor/app/Http/Controllers/UserAPIController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../work-test/app/Models/Pais.php" beforeDir="false" afterPath="$PROJECT_DIR$/../work-test/app/Models/Pais.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../work-test/app/Models/Perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/../work-test/app/Models/Perfil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../work-test/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../work-test/app/Models/User.php" afterDir="false" />
@@ -84,15 +85,15 @@
         <counts>
           <entry key="env" value="1" />
           <entry key="md" value="1" />
-          <entry key="php" value="49" />
+          <entry key="php" value="54" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Blade" value="5" />
+          <entry key="Blade" value="7" />
           <entry key="Markdown" value="1" />
-          <entry key="PHP" value="44" />
+          <entry key="PHP" value="47" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -102,15 +103,15 @@
           <entry key="dummy" value="2" />
           <entry key="env" value="38" />
           <entry key="md" value="807" />
-          <entry key="php" value="1975" />
+          <entry key="php" value="2551" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="259" />
+          <entry key="Blade" value="320" />
           <entry key="Markdown" value="807" />
-          <entry key="PHP" value="1716" />
+          <entry key="PHP" value="2231" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="XML" value="7" />
         </counts>
@@ -119,14 +120,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="413">
-                <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/tests/Feature/PeliculaTest.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PeliculaController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <folding>
+                <element signature="e#40#68#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/page/pelicula/show.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/page/pelicula/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -156,13 +193,17 @@
         <option value="$PROJECT_DIR$/database/seeds/CompraTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/DetalleCompraFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/DetalleCompraTableSeeder.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_02_25_224605_create_detalle_compras_table.php" />
         <option value="$PROJECT_DIR$/tests/Feature/CompraTest.php" />
         <option value="$PROJECT_DIR$/resources/views/page/compra/list.blade.php" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/resources/views/page/pelicula/index.blade.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/page/pelicula/show.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PeliculaController.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/PeliculaTest.php" />
       </list>
     </option>
   </component>
@@ -289,6 +330,74 @@
               <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="compra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="pelicula" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="Feature" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -303,6 +412,9 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/views/page/pelicula" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/Models" />
     </key>
@@ -331,12 +443,12 @@
       <updated>1551133366752</updated>
       <workItem from="1551133368562" duration="5145000" />
       <workItem from="1551186097783" duration="3871000" />
-      <workItem from="1551199602442" duration="10396000" />
+      <workItem from="1551199602442" duration="12026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19412000" />
+    <option name="totallyTimeSpent" value="21042000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="1028" extended-state="6" />
@@ -357,7 +469,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36666667" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36666667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -526,13 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -591,6 +696,44 @@
             <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="18" column="80" selection-start-line="18" selection-start-column="80" selection-end-line="18" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PeliculaController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#40#68#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page/pelicula/show.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="85" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page/pelicula/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/PeliculaTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

@@ -15,3 +15,6 @@ Auth::routes();
 
 Route::get('/', 'CompraController@list')->name('compra.list');
 
+Route::get('/pelicula/', 'PeliculaController@index')->name('pelicula.index');
+Route::get('/pelicula/{genero}', 'PeliculaController@show')->name('pelicula.show');
+
