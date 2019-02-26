@@ -36,15 +36,11 @@
       <change beforePath="$PROJECT_DIR$/../../Estudiar/laravue/cliente/src/services/UserService.service.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estudiar/laravue/cliente/src/services/UserService.service.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Estudiar/laravue/cliente/src/services/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estudiar/laravue/cliente/src/services/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Estudiar/laravue/servidor/app/Http/Controllers/UserAPIController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../Estudiar/laravue/servidor/app/Http/Controllers/UserAPIController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Categoria.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Categoria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/Compra.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Compra.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/DetalleCompra.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/DetalleCompra.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/phpunit.xml" beforeDir="false" afterPath="$PROJECT_DIR$/phpunit.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2019_02_25_224605_create_detalle_compras_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_02_25_224605_create_detalle_compras_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/ExampleTest.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Unit/ExampleTest.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../work-test/app/Models/Pais.php" beforeDir="false" afterPath="$PROJECT_DIR$/../work-test/app/Models/Pais.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../work-test/app/Models/Perfil.php" beforeDir="false" afterPath="$PROJECT_DIR$/../work-test/app/Models/Perfil.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../work-test/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/../work-test/app/Models/User.php" afterDir="false" />
@@ -90,13 +86,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="env" value="1" />
-          <entry key="php" value="35" />
+          <entry key="php" value="49" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="35" />
+          <entry key="Blade" value="5" />
+          <entry key="PHP" value="44" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="XML" value="1" />
         </counts>
@@ -105,13 +102,14 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="env" value="38" />
-          <entry key="php" value="984" />
+          <entry key="php" value="1975" />
           <entry key="xml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="984" />
+          <entry key="Blade" value="259" />
+          <entry key="PHP" value="1716" />
           <entry key="PLAIN_TEXT" value="40" />
           <entry key="XML" value="7" />
         </counts>
@@ -121,19 +119,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/CompraFactory.php">
+        <entry file="file://$PROJECT_DIR$/tests/Feature/CompraTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+            <state relative-caret-position="-392">
+              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+              <folding>
+                <element signature="e#33#58#0#PHP" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/factories/CategoriaFactory.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/page/compra/list.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+            <state relative-caret-position="231">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -141,74 +142,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/factories/DetalleCompraFactory.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
+            <state relative-caret-position="43">
               <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/CompraTableSeeder.php">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CompraController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Compra.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="12" column="51" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/CategoriaTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/Categoria.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="12" column="56" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Models/DetalleCompra.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="10" column="41" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/database/seeds/DetalleCompraTableSeeder.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+            <state relative-caret-position="449">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <element signature="e#7#38#0#PHP" expanded="true" />
+                <element signature="e#40#69#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -223,7 +179,6 @@
       <list>
         <option value="$PROJECT_DIR$/database/migrations/2019_02_25_224400_create_compras_table.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_02_25_224604_create_categorias_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_02_25_224605_create_detalle_compras_table.php" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/phpunit.xml" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
@@ -239,6 +194,12 @@
         <option value="$PROJECT_DIR$/database/seeds/CompraTableSeeder.php" />
         <option value="$PROJECT_DIR$/database/factories/DetalleCompraFactory.php" />
         <option value="$PROJECT_DIR$/database/seeds/DetalleCompraTableSeeder.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
+        <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/CompraController.php" />
+        <option value="$PROJECT_DIR$/database/migrations/2019_02_25_224605_create_detalle_compras_table.php" />
+        <option value="$PROJECT_DIR$/tests/Feature/CompraTest.php" />
+        <option value="$PROJECT_DIR$/resources/views/page/compra/list.blade.php" />
       </list>
     </option>
   </component>
@@ -368,24 +329,57 @@
             <path>
               <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
               <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
               <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="seeds" type="462c0819:PsiDirectoryNode" />
+              <item name="factories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
+              <item name="compra" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TestRedCapital" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TestRedCapital" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -429,18 +423,18 @@
       <updated>1551133366752</updated>
       <workItem from="1551133368562" duration="5145000" />
       <workItem from="1551186097783" duration="3871000" />
-      <workItem from="1551199602442" duration="159000" />
+      <workItem from="1551199602442" duration="6442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9175000" />
+    <option name="totallyTimeSpent" value="15458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1215" height="1028" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25834045" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25748503" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -455,7 +449,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36666667" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.36666667" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -469,16 +463,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CompraController.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_25_224605_create_detalle_compras_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="36" lean-forward="true" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/phpunit.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
@@ -600,17 +584,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/factories/DetalleCompraFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/tests/CreatesApplication.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/CategoriaTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/DetalleCompraTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+        <state relative-caret-position="407">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="17" selection-start-column="8" selection-end-line="22" selection-end-column="9" />
+          <folding>
+            <element signature="e#7#38#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -621,13 +604,75 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DetalleCompraTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/database/seeds/CategoriaTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        <state relative-caret-position="448">
+          <caret line="13" column="59" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="22" column="11" lean-forward="true" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="43" column="206" selection-start-line="43" selection-start-column="206" selection-end-line="43" selection-end-column="206" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CompraController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <element signature="e#7#38#0#PHP" expanded="true" />
+            <element signature="e#40#69#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/factories/DetalleCompraFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="3" column="15" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/database/migrations/2019_02_25_224605_create_detalle_compras_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/CompraTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-392">
+          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          <folding>
+            <element signature="e#33#58#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/page/compra/list.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>

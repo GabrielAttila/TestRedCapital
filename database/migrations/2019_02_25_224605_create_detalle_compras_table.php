@@ -17,7 +17,7 @@ class CreateDetalleComprasTable extends Migration
             $table->increments('id');
 
             $table->string('nombre');
-            $table->decimal('precio', 5, 2);
+            $table->decimal('precio', 10, 2);
 
             $table->unsignedInteger('categoria_id');
             $table->foreign('categoria_id')->references('id')->on('categorias');
